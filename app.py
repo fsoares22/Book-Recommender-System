@@ -31,7 +31,7 @@ corr = np.corrcoef(matrix)
 north_america_book_title = north_america_user_rating_pivot2.columns
 north_america_book_list = list(north_america_book_title)
 book_index = north_america_book_list.index("Wild Animus")
-book_index2 = north_america_book_list.index("The Lovely Bones: A Novel")
+book_index2 = north_america_book_list.index("A Time to Kill")
 book_index3 = north_america_book_list.index("The Da Vinci Code")
 book_index4 = north_america_book_list.index("The Secret Life of Bees")
 book_index5 = north_america_book_list.index("The Red Tent (Bestselling Backlist)")
@@ -41,7 +41,7 @@ book_index8 = north_america_book_list.index("Life of Pi")
 book_index9 = north_america_book_list.index("The Nanny Diaries: A Novel")
 book_index10 = north_america_book_list.index("Bridget Jones's Diary")
 book_index11 = north_america_book_list.index("Snow Falling on Cedars")
-book_index12 = north_america_book_list.index("The Notebook")
+book_index12 = north_america_book_list.index("Girl with a Pearl Earring")
 book_index13 = north_america_book_list.index("Where the Heart Is (Oprah's Book Club (Paperback))")
 book_index14 = north_america_book_list.index("Harry Potter and the Sorcerer's Stone (Harry Potter (Paperback))")
 book_index15 = north_america_book_list.index("The Pilot's Wife : A Novel")
@@ -76,7 +76,7 @@ corr_book_index20 = corr[book_index20]
 
 all_options = {
         "Wild Animus": list(north_america_book_title[(corr_book_index < 1.0) & (corr_book_index > 0.9)]),
-        "The Lovely Bones: A Novel": list(north_america_book_title[(corr_book_index2 < 1.0) & (corr_book_index2 > 0.9)]),
+        "A Time to Kill": list(north_america_book_title[(corr_book_index2 < 1.0) & (corr_book_index2 > 0.9)]),
         "The Da Vinci Code": list(north_america_book_title[(corr_book_index3 < 1.0) & (corr_book_index3 > 0.9)]),
         "The Secret Life of Bees": list(north_america_book_title[(corr_book_index4 < 1.0) & (corr_book_index4 > 0.9)]),
         "The Red Tent (Bestselling Backlist)": list(north_america_book_title[(corr_book_index5 < 1.0) & (corr_book_index5 > 0.9)]),
@@ -86,7 +86,7 @@ all_options = {
         "The Nanny Diaries: A Novel": list(north_america_book_title[(corr_book_index9 < 1.0) & (corr_book_index9 > 0.9)]),
         "Bridget Jones's Diary": list(north_america_book_title[(corr_book_index10 < 1.0) & (corr_book_index10 > 0.9)]),
         "Snow Falling on Cedars": list(north_america_book_title[(corr_book_index11 < 1.0) & (corr_book_index11 > 0.9)]),
-        "The Notebook": list(north_america_book_title[(corr_book_index12 < 1.0) & (corr_book_index12 > 0.9)]),
+        "Girl with a Pearl Earring": list(north_america_book_title[(corr_book_index12 < 1.0) & (corr_book_index12 > 0.9)]),
         "Where the Heart Is (Oprah's Book Club (Paperback))": list(north_america_book_title[(corr_book_index13 < 1.0) & (corr_book_index13 > 0.9)]),
         "Harry Potter and the Sorcerer's Stone (Harry Potter (Paperback))": list(north_america_book_title[(corr_book_index14 < 1.0) & (corr_book_index14 > 0.9)]),
         "The Pilot's Wife : A Novel": list(north_america_book_title[(corr_book_index15 < 1.0) & (corr_book_index15 > 0.9)]),
