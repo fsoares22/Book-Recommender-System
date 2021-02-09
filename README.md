@@ -1,5 +1,5 @@
 # csdalab1
-Simple Book Recommender app system using collaborative filtering.
+This is a simple Book Recommender app system using collaborative filtering. In this repository there are a few files:
 
 app.py is the app file, requirements are required packages, Procfile to declare a process type.
 
