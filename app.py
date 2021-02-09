@@ -21,8 +21,6 @@ from sklearn.decomposition import TruncatedSVD
 SVD = TruncatedSVD(n_components=12, random_state=17)
 matrix = SVD.fit_transform(X)
 
-# calculate the Pearson’s R correlation coefficient for every book pair in our final matrix.
-# To compare this with the results from kNN
 
 import warnings
 warnings.filterwarnings("ignore", category=RuntimeWarning)
