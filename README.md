@@ -1,7 +1,7 @@
 # csdalab1
-This is a simple Book Recommender app system using collaborative filtering. In this repository there are a few files:
+This repository contains the files used to create and deploy a simple Book Recommender app on Heroku.
 
-app.py is the app file, requirements are required packages, Procfile to declare a process type.
+"app.py" is the app file, requirements are required packages, Procfile to declare a process type.
 
 The short1.csv is the dataset used for the app. It consists of 5% of the original book recommender system as there were memory issues trying to run the app using the entire dataset on heroku.
 
