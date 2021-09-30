@@ -1,4 +1,4 @@
-# csdalab1
+# Book Recommender System
 This repository contains the files used to create and deploy a simple Book Recommender app on Heroku.
 
 "app.py" is the app file, requirements are required packages, Procfile to declare a process type.
